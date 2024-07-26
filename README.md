@@ -37,9 +37,17 @@ Install python dependencies, run:
 #### Gen AI
 
 Option 1: Azure Open AI
-Option 2: Ollama 
+Option 2: Ollama (not recommended)
 
 ### Start Jupyter Lab
 
 Start the Jupyter lab server by running `jupyter lab`.
 
+#### Run PlantUML Local server
+
+To run a local PlantUML server using Docker, follow these steps:
+
+1. Make sure you have Docker installed on your machine.
+1. In a terminal, navigate to `plantuml` folder.
+1. Run `docker-compose up -d`.
+1. To stop the Docker Compose when you're done: `docker-compose down`
