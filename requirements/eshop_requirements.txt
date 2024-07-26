@@ -1,0 +1,95 @@
+Functional requirements:
+
+The eshop is a web application that allows users to buy products online. 
+
+A user should be able to access via desktop or mobile browser. When a user access the eshop, he is redirected to the landing page. 
+
+The landing page contains a welcome message and a list of products available in the shop, the user can add products to the cart clicking on the "add to cart" button. 
+When adding a product to the cart, the user can see the number of products in the cart from the top bar.
+
+From the landing page the user can access:
+- the detail page of a product when clicking on the product image or name,
+- the cart when clicking on the cart icon in the top bar,
+- the wishlist when clicking on the wishlist icon in the top bar,
+- the account page when clicking on the account icon in the top bar, if the user is authenticated, otherwise the user is redirected to the login page.
+- the search bar, where the user can search for a specific product.
+- the filters, where the user can filter the products by category, price, brand, etc.
+- copilot chat bot ai assitant, from the bottom right corner of the page.
+
+In the detail page of a product the user can see:
+- the specifications of the product like the size, the color, the material, etc.
+- the price of the product
+- the availability, 
+- the delivery time, 
+- the warranty, 
+- the reviews, 
+- the rating, 
+- the related products,
+- the add to cart button, 
+- the add to wishlist button.
+
+In the cart page the user can see:
+- the list of products in the cart,
+- the total price of the products in the cart,
+- the quantity of each product in the cart,
+- the remove button to remove a product from the cart,
+- the increase and decrease buttons to increase or decrease the quantity of a product in the cart,
+- the checkout button to proceed with the payment.
+
+When the user clicks on the checkout button, he is redirected to the checkout page. In the checkout page the user can see:
+- the list of products in the cart,
+- the total price of the products in the cart,
+- the quantity of each product in the cart,
+- the payment form to proceed with the payment.
+
+When proceeding with the payment, the user is redirected to an external service to complete the payment. 
+If the payment is successful, the user returns to the eshopp and views a confirmation message with the order number and the details of the order.
+The user receives an email with the order number and the details of the order.
+
+In the wishlist page the user can see:
+- the list of products in the wishlist,
+- the add to cart button to add a product from the wishlist to the cart,
+- the remove button to remove a product from the wishlist.
+
+In the account page the user can see:
+- the personal information,
+- the order history,
+- the wishlist,
+- the settings.
+
+The user can login or register from the account page. The user can logout from the account page. 
+The user can access the account page only if he is authenticated. If the user is not authenticated, he is redirected to the login page. 
+In the login page the user can login with email and password.
+
+A copilot chat bot is available in the landing page, it can provide recommendation based on user requests. If the user is logged in, it can respond to questions about orders.
+The user can chat about:
+- products
+- orders
+- delivery
+- payment
+- account
+- settings
+
+The user can't chat about: 
+- personal information
+- payment information
+- security information
+
+Non-functional requirements:
+- The eshop should be responsive and work on desktop and mobile browsers.
+- The eshop should be secure and protect user data.
+- The eshop should be fast and provide a good user experience.
+- The eshop should be reliable and available 24/7. SLA 99.99% uptime. SLI 99.99% availability.
+- The eshop should be scalable and handle a large number of users and products.
+- The eshop should be easy to maintain and update.
+- The eshop should be compliant with the GDPR and protect user privacy.
+- The eshop should be accessible and provide a good user experience for users with disabilities.
+- The eshop should be SEO friendly and rank well in search engines.
+- The eshop should be internationalized and support multiple languages and currencies.
+- The eshop should be integrated with social media platforms for sharing and promotion.
+- The eshop should be integrated with analytics tools to track user behavior and improve the user experience.
+- The eshop should be integrated with marketing tools to run campaigns and promotions.
+- The eshop should be integrated with customer support tools to provide assistance to users.
+- The eshop should be integrated with shipping and logistics services to handle deliveries.
+- The eshop should be integrated with payment gateways to process payments.
+- The eshop should be integrated with inventory management systems to track stock levels.
