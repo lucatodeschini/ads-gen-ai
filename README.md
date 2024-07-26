@@ -28,11 +28,4 @@ To create a Python virtual environment for running a Jupyter notebook, follow th
 5. Install Jupyter notebook by running `pip install jupyter`.
 6. Start the Jupyter notebook server by running `jupyter notebook`.
 
-TODO:
-- [ ] Add notebook for C4 models
-- [ ] Add requirements file
-- [ ] Add instructions for SLM
-- [ ] Add github workflows for generating documents
-- [ ] Add notebook for DDD
-
 
