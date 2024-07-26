@@ -2,6 +2,13 @@
 
 This repo includes a few jupyter notebooks for testing architecture design using GenAI
 
+### Prerequisites:
+- Python
+- LLM (GPT-4) deployed on Azure or SML running locally on Ollama  
+
+
+### Start:
+
 To create a Python virtual environment for running a Jupyter notebook, follow these instructions based on your operating system:
 
 **Linux:**
@@ -28,4 +35,14 @@ To create a Python virtual environment for running a Jupyter notebook, follow th
 5. Install Jupyter notebook by running `pip install jupyter`.
 6. Start the Jupyter notebook server by running `jupyter notebook`.
 
+
+### Dependencies and infrastructure
+
+Install python dependencies, run:
+> pip install -r requirements.txt
+
+#### Gen AI
+
+Option 1: Azure Open AI
+Option 2: Ollama 
 
