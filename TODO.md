@@ -4,4 +4,4 @@ TODO:
 - [ ] Add instructions for SLM (suspended)
 - [ ] Add github workflows for generating documents
 - [ ] Add notebook for DDD
-- [ ] Use local plantuml server
+- [X] Use local plantuml server
