@@ -1,9 +1,13 @@
-version: '3.8'
+version: '3.3'
 
 services:
-  plantuml:
+  plantuml-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.jetty
     image: plantuml/plantuml-server:jetty
+    container_name: plantuml-server
     ports:
-      - "8080:7000"
+      - 8080:8080
     environment:
-      - PLANTUML_LIMIT_SIZE=8192
+      - BASE_URL=plantuml
