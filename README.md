@@ -51,3 +51,5 @@ To run a local PlantUML server using Docker, follow these steps:
 1. In a terminal, navigate to `plantuml` folder.
 1. Run `docker-compose up -d`.
 1. To stop the Docker Compose when you're done: `docker-compose down`
+
+

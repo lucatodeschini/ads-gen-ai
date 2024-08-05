@@ -14,7 +14,7 @@ From the landing page the user can access:
 - the account page when clicking on the account icon in the top bar, if the user is authenticated, otherwise the user is redirected to the login page.
 - the search bar, where the user can search for a specific product.
 - the filters, where the user can filter the products by category, price, brand, etc.
-- copilot chat bot ai assitant, from the bottom right corner of the page.
+- a chat widget, available in every page, for interacting with a chatbot assistant
 
 In the detail page of a product the user can see:
 - the specifications of the product like the size, the color, the material, etc.
@@ -81,15 +81,8 @@ Non-functional requirements:
 - The eshop should be fast and provide a good user experience.
 - The eshop should be reliable and available 24/7. SLA 99.99% uptime. SLI 99.99% availability.
 - The eshop should be scalable and handle a large number of users and products.
-- The eshop should be easy to maintain and update.
 - The eshop should be compliant with the GDPR and protect user privacy.
 - The eshop should be accessible and provide a good user experience for users with disabilities.
-- The eshop should be SEO friendly and rank well in search engines.
-- The eshop should be internationalized and support multiple languages and currencies.
-- The eshop should be integrated with social media platforms for sharing and promotion.
-- The eshop should be integrated with analytics tools to track user behavior and improve the user experience.
-- The eshop should be integrated with marketing tools to run campaigns and promotions.
-- The eshop should be integrated with customer support tools to provide assistance to users.
-- The eshop should be integrated with shipping and logistics services to handle deliveries.
-- The eshop should be integrated with payment gateways to process payments.
-- The eshop should be integrated with inventory management systems to track stock levels.
+- The eshop source code must be versioned and stored in a git repository.
+- The eshop should be deployed in a cloud environment, with continuous integration and continuous deployment.
+- The eshop should be monitored and provide metrics about the performance and the usage.
