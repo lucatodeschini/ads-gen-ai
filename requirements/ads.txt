@@ -1,0 +1,39 @@
+Components
+Frontend Service:
+Description: Handles the user interface for both desktop and mobile browsers.
+Responsibilities:
+Display the landing page with a welcome message and product list.
+Provide a chat interface for the copilot chat bot.
+Allow users to view product details and add items to the cart.
+Enable user authentication and account creation.
+Provide access to the basket and checkout process.
+Redirect users to an external payment service during checkout.
+Display order history for authenticated users.
+Backend Service:
+Description: Manages business logic and data processing.
+Responsibilities:
+Handle user authentication and account management.
+Manage product catalog and provide product details.
+Process cart operations (add, remove, update quantities).
+Handle order creation and management.
+Interface with the external payment service.
+Send order confirmation emails.
+Provide order history data for authenticated users.
+Copilot Chat Bot Service:
+Description: Provides recommendations and responds to user queries.
+Responsibilities:
+Offer product recommendations based on user requests.
+Respond to order-related queries for authenticated users.
+Payment Gateway Service:
+Description: External service for processing payments.
+Responsibilities:
+Handle payment transactions securely.
+Notify the backend service of payment success or failure.
+Email Service:
+Description: Sends emails to users.
+Responsibilities:
+Send order confirmation emails with order number and details.
+Database:
+Description: Stores all persistent data.
+Responsibilities:
+Store user information, product catalog, cart data, orders, and order history.
