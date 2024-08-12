@@ -1,10 +1,10 @@
 # Architecture Design Session with Gen AI
 
-This repo includes a few jupyter notebooks for testing architecture design using GenAI
+This repo includes a few jupyter notebooks for design software architecture using Generative AI
 
 ### Prerequisites:
 - Python
-- LLM (GPT-4) deployed on Azure or SML running locally on Ollama  
+- LLM (GPT-4) deployed on Azure or SML running locally on Ollama  (TODO)
 
 
 ### Start:
